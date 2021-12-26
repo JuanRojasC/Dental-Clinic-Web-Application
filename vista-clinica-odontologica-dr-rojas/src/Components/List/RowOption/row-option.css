@@ -1,0 +1,30 @@
+.list-row-option{
+    display: none;
+    position: absolute;
+    right: 2vw;
+}
+
+.responsive-table-row:hover .list-row-option{
+    display: flex;
+}
+
+.row-option-icon-setting{
+    margin-right: 0.5vw;
+}
+
+.list-row-option .i{
+    cursor: pointer;
+    font-size: 0.9vw;
+}
+
+.list-row-option .i:hover{
+    transform: scale(1.5);
+    color: var(--main-color);
+}
+
+@media only screen and (max-width: 1366px) {
+    .list-row-option .i{
+        cursor: pointer;
+        font-size: 1.1vw;
+    }
+  }

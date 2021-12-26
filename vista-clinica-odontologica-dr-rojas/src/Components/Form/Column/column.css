@@ -1,0 +1,33 @@
+/*Medias Columnas*/
+.col-half {
+    padding-right: 0.5vw;
+    float: left;
+    width: 50%;
+}
+.col-half:last-of-type {
+    padding-right: 0vw;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*Trio de Columnas*/
+.col-third{
+    padding-right: 0.5vw;
+    float: left;
+    width: 28%;
+    font-size: 1vw;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/* Paciente opcion y Odontologo opcion */
+.paciente-form, .odontologo-form{
+    padding-right: 0vw;
+}
+.form-type .option-form input.opcion + label {
+    width: 100%;
+    margin: 0vw;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    cursor: pointer;
+}

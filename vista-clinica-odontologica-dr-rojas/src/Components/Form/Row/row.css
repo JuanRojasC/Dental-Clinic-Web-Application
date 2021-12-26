@@ -1,0 +1,92 @@
+/*Filas*/
+.row {
+    zoom: 1;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    display: inline;
+}
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.container-loginform .container-inputs{
+    width: 80%;
+    margin: 0vw auto;
+}
+
+/**Advertencia de errores*/
+.row span{
+    text-align: center;
+}
+.row span{
+    color: red;
+    display: block;
+    margin-bottom: 1.5vw;
+}
+/**Entrada con datos incorrectos*/
+.wrong-inputs .input-group-icon input{
+    border: 1px solid red;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*Entradas Global*/
+.row input,
+.row input[type="radio"] + label,
+.row input[type="checkbox"] + label:before,
+.row select option,
+.row select {
+  width: 100%;
+  padding: 0.75em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.row input:focus {
+    outline: 0;
+    border-color: var(--main-color);
+}
+.row input:focus + .input-icon i {
+    color: var(--main-color);
+}
+.row input:focus + .input-icon:after {
+    border-right-color: var(--main-color);
+}
+.row input[type="radio"]:checked + label,
+.row input:checked + label:before,
+.row select:focus,
+.row select:active {
+    background-color: var(--main-color);
+    color: #fff;
+    border-color: var(--main-color);
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*Entrada de Tipo radio*/
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label,
+select {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+input[type="radio"] + label i {
+    padding-right: 0.4em;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+

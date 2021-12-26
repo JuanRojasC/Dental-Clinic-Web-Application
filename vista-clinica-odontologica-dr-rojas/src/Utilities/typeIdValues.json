@@ -1,0 +1,37 @@
+[
+    {
+        "value": -1,
+        "name": "Tipo de Identifacion",
+        "nick": "Tipo"
+    },
+    {
+        "value": 0,
+        "name": "Sin Especificar",
+        "nick": "N/A"
+    },
+    {
+        "value": 1,
+        "name": "Libreta Electoral",
+        "nick": "Libreta"
+    },
+    {
+        "value": 2,
+        "name": "Carnet de Extranjeria",
+        "nick": "Carnet"
+    },
+    {
+        "value": 3,
+        "name": "Registro Unico de Contribuyentes",
+        "nick": "Registro"
+    },
+    {
+        "value": 4,
+        "name": "Pasaporte",
+        "nick": "Pasaporte"
+    },
+    {
+        "value": 5,
+        "name": "Partida de Nacimiento",
+        "nick": "Partida"
+    }
+]

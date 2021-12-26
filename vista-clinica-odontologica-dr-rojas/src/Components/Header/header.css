@@ -1,0 +1,54 @@
+header{
+    padding: 0.75vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0abcf9;
+    background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+    box-shadow: 0px 0px 0px 5px #0abcf9;
+}
+
+.logo-header {
+    width: 13vw;
+}
+
+nav > a {
+    margin-left: 1.5vw;
+    font-size: 1.25vw;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a .i{
+    margin-right: 0.35vw;
+}
+
+nav > a:hover {
+    color: grey;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        padding: 2vw 4vw;
+    }
+
+    .logo-header {
+        width: 25vw;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+        color: white;
+        font-size: 5vw;
+    }
+}

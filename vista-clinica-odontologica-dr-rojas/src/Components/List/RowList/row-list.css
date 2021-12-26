@@ -1,0 +1,27 @@
+.responsive-table-row{
+    background-color: #fff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.responsive-table-row:hover{
+    transform: scale(1.02);
+    border: 2px solid var(--main-color);
+}
+
+.responsive-table-col-id {
+    flex-basis: 8%;
+}
+.responsive-table-col-paciente, .responsive-table-col-empleado, .responsive-table-col-odontologo {
+    flex-basis: 40%;
+}
+.responsive-table-col-documento, .responsive-table-col-matricula {
+    flex-basis: 27%;
+}
+.responsive-table-col-numero, .responsive-table-col-grado, .responsive-table-col-fecha{
+    flex-basis: 20%;
+}
+.responsive-table-col-domicilio, .responsive-table-col-titulo{
+    flex-basis: 40%;
+}

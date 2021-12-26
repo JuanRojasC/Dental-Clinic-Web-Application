@@ -1,0 +1,28 @@
+.home-user-nav{
+    padding: 1vw 0vw;
+}
+
+.home-user-nav-options-list{
+    padding: 0vw 1vw;
+    display: flex;
+}
+
+.home-user-nav-options-list .line-vertical{
+    margin: 0vw 1vw;
+    width: 2px;
+    background-color: var(--main-color);
+}
+
+.home-user-nav-option{
+    display: inline;
+    list-style: none;
+    font-size: 1.2vw;
+    line-height: 0.9;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.home-user-nav hr{
+    height: 2px;
+    margin-top: 0.5vw;
+}

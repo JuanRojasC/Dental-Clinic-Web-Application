@@ -1,0 +1,122 @@
+[
+    {
+        "nombre": "Andres Felipe",
+        "apellido": "Ramirez Beltran",
+        "usuario":{
+            "email": "andresramirez@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "18/09/1995",
+        "genero": "hombre",
+        "tipoDocumento": "2",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 66698846,
+        "tipoTitulo": "2",
+        "titulo": "Odontologo"
+    },
+    {
+        "nombre": "Camilo Esteban",
+        "apellido": "Bernandu Socha",
+        "usuario":{
+            "email": "camilobernandu@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "21/05/1990",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 5463245481,
+        "tipoTitulo": "1",
+        "titulo": "Asistente"
+    },
+    {
+        "nombre": "Francisco Mateo",
+        "apellido": "Miloro Martinez",
+        "usuario":{
+            "email": "franciscomiloro@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "21/05/1990",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 644835564,
+        "tipoTitulo": "3",
+        "titulo": "Odontologo Ortodoncista"
+    },
+    {
+        "nombre": "Ana Maria",
+        "apellido": "Casagrande Lopez",
+        "usuario":{
+            "email": "anacasagrande@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "30/01/1992",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 866256,
+        "tipoTitulo": "3",
+        "titulo": "Odontologo Ortodoncista"
+    },
+    {
+        "nombre": "Andres Felipe",
+        "apellido": "Ramirez Beltran",
+        "usuario":{
+            "email": "andresramirez@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "18/09/1995",
+        "genero": "hombre",
+        "tipoDocumento": "2",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 66698846,
+        "tipoTitulo": "2",
+        "titulo": "Odontologo"
+        },
+        {
+        "nombre": "Camilo Esteban",
+        "apellido": "Bernandu Socha",
+        "usuario":{
+            "email": "camilobernandu@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "21/05/1990",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 5463245481,
+        "tipoTitulo": "1",
+        "titulo": "Asistente"
+        },
+        {
+        "nombre": "Francisco Mateo",
+        "apellido": "Miloro Martinez",
+        "usuario":{
+            "email": "franciscomiloro@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "21/05/1990",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 644835564,
+        "tipoTitulo": "3",
+        "titulo": "Odontologo Ortodoncista"
+        },
+        {
+        "nombre": "Ana Maria",
+        "apellido": "Casagrande Lopez",
+        "usuario":{
+            "email": "anacasagrande@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "30/01/1992",
+        "genero": "hombre",
+        "tipoDocumento": "1",
+        "numeroDocumento": 1666655,
+        "numeroMatricula": 866256,
+        "tipoTitulo": "3",
+        "titulo": "Odontologo Ortodoncista"
+        }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "nombre": "David Felipe",
+        "apellido": "Cañizales Toro",
+        "usuario": {
+            "email": "davidcañizales@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "19/09/2021",
+        "genero": "otro",
+        "tipoDocumento": "1",
+        "numeroDocumento": 10085967,
+        "domicilio": {
+            "calle": "real",
+            "numero": 25,
+            "localidad": "Bogota",
+            "provincia": "Cundinamarca"
+        }
+    },
+    {
+        "nombre": "Enrique Hernando",
+        "apellido": "Perez Savedra",
+        "usuario":{
+            "email": "enriqueperez@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "20/09/2021",
+        "genero": "hombre",
+        "tipoDocumento": "3",
+        "numeroDocumento": 1778266,
+        "domicilio": {
+            "calle": "oeste",
+            "numero": 117,
+            "localidad": "San Lucas",
+            "provincia": "Nuevo Laredo"
+        }
+    },
+    {
+      "apellido": "Rojas Cañizales",
+      "domicilio": {
+        "calle": "Central",
+        "localidad": "Bogota",
+        "numero": "2",
+        "provincia": "Cundinamarca"
+      },
+      "fechaNacimiento": "2/10/2000",
+      "genero": "hombre",
+      "nombre": "Juan David",
+      "numeroDocumento": 16265881,
+      "tipoDocumento": "2",
+      "usuario": {
+        "email": "juanrojas@email.com",
+        "password": "123456"
+      }
+    },
+    {
+      "apellido": "Lopez Farada",
+      "domicilio": {
+        "calle": "Altamira",
+        "localidad": "Ciudad de Buenos Aires",
+        "numero": "56",
+        "provincia": "Buenos Aires"
+      },
+      "fechaNacimiento": "5/7/1998",
+      "genero": "hombre",
+      "nombre": "Andres Mauricio",
+      "numeroDocumento": 99662566,
+      "tipoDocumento": "1",
+      "usuario": {
+        "email": "andreslopez@email.com",
+        "password": "123456"
+      }
+    },
+    {
+      "apellido": "Lopez Medina",
+      "domicilio": {
+        "calle": "Rockefeller",
+        "localidad": "Princenton",
+        "numero": "112",
+        "provincia": "Standford"
+      },
+      "fechaNacimiento": "25/9/1997",
+      "genero": "mujer",
+      "nombre": "Laura Alejandra",
+      "numeroDocumento": 88562455,
+      "tipoDocumento": "2",
+      "usuario": {
+        "email": "lauralopez@email.com",
+        "password": "123456"
+      }
+    },
+    {
+        "nombre": "Daniel Santiago",
+        "apellido": "Duque Fernandez",
+        "usuario":{
+            "email": "danielduque@email.com",
+            "password": "123456"
+        },
+        "fechaNacimiento": "20/09/2021",
+        "genero": "hombre",
+        "tipoDocumento": "3",
+        "numeroDocumento": 1778266,
+        "domicilio": {
+            "calle": "oeste",
+            "numero": 117,
+            "localidad": "Potosi",
+            "provincia": "San Luis"
+        }
+    }
+]

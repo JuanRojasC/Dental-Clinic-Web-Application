@@ -1,0 +1,59 @@
+.list{
+    max-width: 80vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.list-pacientes{
+    max-width: 80vw;
+}
+
+.list-empleados{
+    max-width: 70vw;
+}
+
+.list-turnos{
+    max-width: 60vw;
+}
+
+.list-title{
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.responsive-table-header{
+    background-color: var(--main-color);
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.responsive-table-li{
+    border-radius: 3px;
+    padding: 25px 4vw 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.button-add-new-element{
+    padding: 0.5vw;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 0vw;
+    top: -1.5vw;
+}
+
+.button-add-new-element:hover::after{
+    transform: scale(1.2);
+    content: "+";
+    margin-left: 0.5vw;
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+#mainCuenta{
+	font-family: "Roboto", sans-serif;
+}
+#mainCuenta > input{
+    padding: 0vw;
+}
+
+#sectionCuenta{
+    margin-top: 2vw!important;
+    padding: 0vw!important;
+}
+
+#containerCuenta{
+    max-width: 80vw!important;
+    box-shadow: none;
+}
+
+#titleCuenta{
+    color: var(--main-color);
+    font-weight: bold;
+    margin-bottom: 2vw!important;
+    font-size: 2.5vw;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.tab-content {
+	flex: 1;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+
+.nav-pills a.nav-link i {
+	width: 20px;
+}
+
+.img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
+
+option:checked + label {
+    content: "hola";
+}
+
+#select-temp{
+    all: initial;
+}
+
+div#identificacion > select#tipoDNI, div#titulo > select#tipoTitulo{
+    all: initial;
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'FontAwesome', 'Roboto'
+}
+
+div#identificacion, div#genero, div#titulo{
+    display: flex;
+}
+
+.fechaNacimiento{
+    display: flex;
+}
+
+input.fecha{
+    margin-right: 1vw;
+}
+
+.genero{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'FontAwesome', 'Roboto'
+}
+
+#genero > input[type="radio"] + label{
+    padding: .375rem .75rem;
+    margin-right: 1vw;
+}

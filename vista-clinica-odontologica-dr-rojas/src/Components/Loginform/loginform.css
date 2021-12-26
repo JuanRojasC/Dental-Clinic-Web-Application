@@ -1,0 +1,51 @@
+.container-loginform {
+    max-width: 38em;
+    padding: 1em 3em 1em 3em;
+    margin: 0em auto;
+    background-color: #fff;
+    border-radius: 4.2px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+    max-width: 40vw;
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+}
+
+/*Formulario*/
+#form-loginpage{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Registro*/
+h2{
+    color: var(--main-color);
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+/*Linea*/
+hr{
+    height: 0.05vw;
+    background-color: var(--main-color);
+    border: none;
+    margin: 1.5vw 0vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .container-loginform{
+        max-width: 95vw;
+        margin-top: 15vh;
+    }
+    #form-loginpage{
+        display: flex;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    hr{
+        height: 0.5vw;
+        background-color: var(--main-color);
+        border: none;
+        margin: 5vw 0vw;
+    }
+  }

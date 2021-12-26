@@ -1,0 +1,35 @@
+.container-form-appointment{
+    width: 30vw;
+    padding: 1em 3em 1em 3em;
+    margin: 0em auto;
+    background-color: #fff;
+    border-radius: 4.2px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+    margin-top: 6vw;
+}
+
+.container-form-appointment h2{
+    margin-bottom: 1.5vw;
+}
+
+.form-appointment-submit, .form-appointment-submit-disable{
+    margin-top: 1.5vw;
+    width: 30%;
+}
+
+.form-appointment-submit-disable{
+    width: 30%;
+}
+
+#odontologos_disponibles{
+    text-align: left;
+}
+
+#odontologos_disponibles:hover{
+    color: black;
+}
+
+#odontologos_disponibles:focus{
+    background-color: white;
+    color: black;
+}

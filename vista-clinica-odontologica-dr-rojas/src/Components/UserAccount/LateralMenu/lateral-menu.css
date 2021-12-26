@@ -1,0 +1,14 @@
+.profile-tab-nav {
+	min-width: 18%;
+}
+
+.img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
+
+.icon-lateralmenu-option{
+	margin-right: 0.5vw!important;
+}

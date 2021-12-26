@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+#user-account{
+    padding: 0vw!important;
+    margin-top: 1vw!important;
+}
+
+#container-user-account{
+    max-width: 80vw!important;
+    box-shadow: none;
+    margin: 0 auto;
+}
+
+#title-account-settings{
+    color: var(--main-color);
+    font-weight: bold;
+    margin-bottom: 2vw!important;
+    font-size: 2.5vw;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.tab-content {
+	flex: 1;
+}
+
+.tab-content > .tab-pane{
+    display: block;
+    min-height: 28vw!important;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+
+.nav-pills a.nav-link i {
+	width: 20px;
+}

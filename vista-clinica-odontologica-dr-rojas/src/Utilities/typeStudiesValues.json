@@ -1,0 +1,32 @@
+[
+    {
+        "value": 0,
+        "name": "Sin Especificar",
+        "nick": "N/A"
+    },
+    {
+        "value": 1,
+        "name": "Tecnico",
+        "nick": "Tecnico"
+    },
+    {
+        "value": 2,
+        "name": "Profesional",
+        "nick": "Profesional"
+    },
+    {
+        "value": 3,
+        "name": "Especializado",
+        "nick": "Especializado"
+    },
+    {
+        "value": 4,
+        "name": "Magister",
+        "nick": "Magister"
+    },
+    {
+        "value": 5,
+        "name": "Doctorado",
+        "nick": "Doctorado"
+    }
+]
